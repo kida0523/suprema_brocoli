@@ -3,3 +3,27 @@ body{
     background-size: 1000px;
     background-repeat: no-repeat;
 }
+.caja1 {
+    background-color: bisque;
+    width: 300px;
+    height: 300px;
+    float: left;
+}
+.caja2 {
+    background-color:bisque;
+    width: 300px;
+    height: 300px;
+    float: left;
+}
+
+.caja3 {
+    background-color: bisque;
+    width: 300px;
+    height: 300px;
+    float: left;
+}
+.contenedor {
+    width: 900px;
+    height: 200px;
+    
+}

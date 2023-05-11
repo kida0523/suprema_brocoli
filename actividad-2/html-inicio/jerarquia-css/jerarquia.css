@@ -1,0 +1,14 @@
+
+*{
+    box-sizing: border-box;
+}
+
+h1{
+    color: black;
+}
+
+.header{color: blue;}
+/* selector de ID */
+#header-id{
+    color: brown;
+}
