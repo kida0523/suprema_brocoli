@@ -1,0 +1,254 @@
+* {
+	margin: 0;
+	 /* padding: 0; */
+	box-sizing: border-box;
+
+}
+
+body {
+	font-size: 20px;
+	font-family: 'Dosis';
+    color: black;
+}
+
+
+/* ------------------------- */
+/* navegador */
+/* ------------------------- */
+
+.cabecera  .logo{
+    border-radius: 20%;
+    border-color: black;
+    border-width: 20px;
+    width: 150px;
+    height: 10%;
+    font-weight: bold;
+    color: black;
+    cursor: pointer;
+    
+}
+
+.cabecera .logo:hover{
+    border-radius: 20%;
+    width: 170px;
+    height: 15%;
+    border: 20px black;
+    font-weight: bold;
+    color: black;
+    cursor: pointer;
+}
+
+
+.menu {
+	display: flex;
+    flex-wrap: wrap;
+    background-color: brown;
+    width: 100%;
+	min-width: 280px;
+    /* position: sticky;*/
+	top: 10px; 
+	padding: 20px;
+	text-align:justify;
+	justify-content: center;
+	font-family: "Dosis";
+	margin-bottom: 25px;
+}
+
+.menu a {
+	display: inline-block;
+	padding: 5px 30px;
+	font-size: 26px;
+	margin: 0 10px;
+	transition: .5s ease all;
+	color: var(--gray-light);
+	text-decoration: none;
+	border-radius: 30px;
+}
+
+ 
+.menu a:hover {
+	color: #ffffff;
+    transform: translateY(-5px);
+	background-color: rgb(235, 86, 120);
+	border-radius: 30px;
+} 
+
+
+/* ------------------------- */
+/* contenido Pagina*/
+/* ------------------------- */
+
+.cuerpo {
+    /* display: flex; */
+    flex-wrap: wrap;
+    margin: 5%;
+	width: 90%;
+	min-width: 300px;
+    height: 100vh;
+	background-image: url(img/fondo-music.jpg);
+	background-position: center;
+	background-size: cover;
+	background-attachment: fixed;
+}
+
+/* ------------------------- */
+/* contenido Artista*/
+/* ------------------------- */
+
+.main {
+    display: grid;
+    grid-template-columns:50% 50%;
+    grid-template-rows: 33% 33% 33%;
+    padding-bottom: 100px;
+}
+
+.contenedor-1{
+    text-align: center;
+    flex-wrap: wrap;
+    width: 100%;
+    min-width: 300px;
+
+
+
+}
+
+.seccion-parrafo-1{
+    backdrop-filter: blur(5px);
+    width: 100%;
+    padding: 30px;
+    text-align: center;
+    margin: 20px;
+    min-width: 250px;
+    
+}
+
+.parrafo-1{
+    backdrop-filter: blur(5px);
+    padding-left: 10px;
+    text-align: justify;
+    padding-right: 20px;
+}
+
+/* es imagen */
+/* .seccion-parrafo-2{
+    width: 100%;
+
+    padding-left: 50px;
+    position: relative;
+    transition: all 5s ease;
+    transform: perspective(600px);
+    transform-origin: 1% 50%;
+    transform-style:preserve-3d;
+}
+.seccion-parrafo-2:hover{
+    transform: perspective(100000px) rotateY(-180deg) translateX(1%);
+}
+.seccion-parrafo-2 .fotos-rotantes-1,
+.seccion-parrafo-2 .fotos-rotantes-2{
+position: absolute;
+backface-visibility: hidden;
+}
+.seccion-parrafo-2 .fotos-rotantes-2{
+transform: rotateY(-180deg);
+} */
+
+/* es imagen */
+.seccion-parrafo-2{
+    width: 100%;
+    text-align: center;
+    padding: 50px;
+
+}
+.video-youtube{
+    padding: 50px;
+    flex-wrap: wrap;
+    width: 100%;
+    min-width: 300px;
+
+}
+
+.seccion-parrafo-3{
+    padding: 50px;
+    flex-wrap: wrap;
+    width: 100%;
+    min-width: 300px;
+    text-align: center;
+
+}
+
+.seccion-parrafo-4{
+    padding: 50px;
+    flex-wrap: wrap;
+    width: 100%;
+    min-width: 300px;
+    text-align: center;
+}
+
+.parrafo-4{
+    backdrop-filter: blur(5px);
+    padding-left: 10px;
+    text-align: justify;
+    padding-right: 20px;
+}
+
+/* es imagen */
+.seccion-parrafo-5{
+    width: 100%;
+    text-align: center;
+    padding: 50px;
+    min-width: 300px;
+    
+    /* width: 100%;
+    text-align: center;
+    padding: 50px; */
+}
+
+.foto-estatica{
+    padding: 50px;
+    height: 600px;
+    width: 400px;
+}
+
+
+.fotos-rotantes-1{
+    height: 300px;
+    width: 200px;
+}
+
+.fotos-rotantes-2{
+    height: 300px;
+    width: 200px;
+}
+
+.parrafo-2{
+    backdrop-filter: blur(5px);
+    padding-left: 10px;
+    text-align: justify;
+    padding-right: 20px;
+}
+
+
+.redes-sociales {
+	padding: 10px;
+	background-color: var(--purple-light);
+}
+
+.redes-sociales img {
+	padding: 5px;
+	border-radius: 100%;
+	width: 50px;
+	transition: .3s ease all;
+}
+
+.redes-sociales img:hover {
+	transform: scale(1.2);
+}
+
+
+.diseno-footer{
+    background-color: brown;
+	color: lightblue;
+	font-family: "Dosis";
+	font-size: 20px;
+	text-align: center;
+}
